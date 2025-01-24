@@ -2,11 +2,17 @@
 ***
 
 ## Description
-    In this project, we will use the heap by recreating our own implementation of malloc(). But what is malloc? Malloc is a dynamic memory allocator — it gives you a block of memory on the heap during run time. You want to use malloc when you don’t know the memory size during compile time. It’s also useful when you need to allocate memory greater than the size of the stack. More commonly, malloc is used for objects that must exist beyond the scope of the current block.
+    In this project, we will use the heap by recreating our own implementation of malloc(). 
+    But what is malloc? Malloc is a dynamic memory allocator — it gives you a block of memory 
+    on the heap during run time. You want to use malloc when you don’t know the memory size 
+    during compile time. It’s also useful when you need to allocate memory greater than the size 
+    of the stack. More commonly, malloc is used for objects that must exist beyond the scope of the current block.
 
 ## Installation
     To run this project use GNU compilation command or Makefile that i provided
         $> make
+        $>./my_malloc
+        
 ## Usage
     Code to test:
         #include <unistd.h>
@@ -31,5 +37,6 @@
 
 ### The Core Team
 Akbar Usmonov\
+
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
 <span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
