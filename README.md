@@ -1,12 +1,19 @@
 # Welcome to My Malloc
 ***
 
+## Task
+
+The task was about to implement the fucntions connected with memory allocation such as malloc, calloc, realloc,
+free by our own. Before this project I had no idea how actually these functions, right I knew that they are used
+ to allocate and free this memory I'm saying about the proccess going inside these fucntions.
+
 ## Description
-    In this project, we will use the heap by recreating our own implementation of malloc(). 
-    But what is malloc? Malloc is a dynamic memory allocator — it gives you a block of memory 
-    on the heap during run time. You want to use malloc when you don’t know the memory size 
-    during compile time. It’s also useful when you need to allocate memory greater than the size 
-    of the stack. More commonly, malloc is used for objects that must exist beyond the scope of the current block.
+
+In this project, we will use the heap by recreating our own implementation of malloc(). 
+But what is malloc? Malloc is a dynamic memory allocator — it gives you a block of memory 
+on the heap during run time. You want to use malloc when you don’t know the memory size 
+during compile time. It’s also useful when you need to allocate memory greater than the size 
+of the stack. More commonly, malloc is used for objects that must exist beyond the scope of the current block.
 
 ## Installation
     To run this project use GNU compilation command or Makefile that i provided
